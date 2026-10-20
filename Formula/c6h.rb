@@ -1,22 +1,22 @@
 class C6h < Formula
   desc "carbon6 head: manages workers and serves the web UI"
   homepage "https://github.com/carbon6-dev/carbon6"
-  version "0.3.4"
+  version "0.3.7"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.4/c6h-0.3.4-darwin-arm64.tar.gz"
-    sha256 "f3d19fe38a9d93c0502bef0b333d8f21c1eb7ac16a5c470b8250527d2cdf9514"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7/c6h-0.3.7-darwin-arm64.tar.gz"
+    sha256 "a4ae75a19ad931e611dc9bbbdc2db97b24c805f00afbefae7926355babb3ce37"
   end
   on_intel do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.4/c6h-0.3.4-darwin-x86_64.tar.gz"
-    sha256 "e1667455e0fd4caab35f3dc73a2dcc6e6c0024c79c9ba68aba3d24df43cd683e"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7/c6h-0.3.7-darwin-x86_64.tar.gz"
+    sha256 "72de127c03e1659793e260a5c47502ff46ea34f79b2852d4075e6f655bca7f59"
   end
 
   bottle do
-    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.4"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "8d7d9d5ef405aa336b3899ff922a4572f787ba99abf91cb7ae29d37b14e10d59"
-    sha256 cellar: :any_skip_relocation, big_sur: "856070ddbdfbbb1aba808f0f96cd30c59c2d215f73ef100876818e1707161864"
+    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "f235670502a08eaef749a57f7aae7df25a489ffdd2fc603c24910e98a7857627"
+    sha256 cellar: :any_skip_relocation, big_sur: "00e2a5b92b36daab048b459311c9e559c451ee0ff0680f90ae717e4131b45622"
   end
 
   depends_on :macos
