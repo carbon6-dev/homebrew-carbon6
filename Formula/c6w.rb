@@ -1,22 +1,22 @@
 class C6w < Formula
   desc "carbon6 worker: runs agent sessions on this Mac for a carbon6 head"
   homepage "https://github.com/carbon6-dev/carbon6"
-  version "0.3.7"
+  version "0.3.8"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7/c6w-0.3.7-darwin-arm64.tar.gz"
-    sha256 "18ff213b11d4938aa24c2280c2d31a2133651627894fef8e61bda14a96b2dadd"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.8/c6w-0.3.8-darwin-arm64.tar.gz"
+    sha256 "75027414d840636be8d33397b00674e875d4ea18f9d8d7360084d77c0580985a"
   end
   on_intel do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7/c6w-0.3.7-darwin-x86_64.tar.gz"
-    sha256 "360398f58ef499ad706c7e43f57e4b1571e0eb7b6e5ddc987ec3640da9631715"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.8/c6w-0.3.8-darwin-x86_64.tar.gz"
+    sha256 "f732492db7360dc029615163d9e039fbdccbac4633f15455c7217c39d790d35c"
   end
 
   bottle do
-    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.7"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "b131cc23645a0bb9a8d20c77f7f0c8fa2bd54925a7788f1937f4c38d07a5cd9a"
-    sha256 cellar: :any_skip_relocation, big_sur: "e80cb5969c0611a3507ed48cfdbae4ab7bca7e5f7f603b019c19313f9ff2c68b"
+    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.8"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "d06d49d6eed530573a67215fe23e7ad902b879de2207c57b27d6d4530cf67dff"
+    sha256 cellar: :any_skip_relocation, big_sur: "98f6dc4a9266ee500afefae9805dc87fa0e48203d8caf8492777d3d3b08b4ff1"
   end
 
   depends_on :macos
