@@ -1,17 +1,17 @@
 class C6w < Formula
   desc "carbon6 worker: runs agent sessions on this Mac for a carbon6 head"
   homepage "https://github.com/carbon6-dev/carbon6"
-  version "0.3.10"
+  version "0.3.11"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10/c6w-0.3.10-darwin-arm64.tar.gz"
-    sha256 "847883c530749fdaf7803b6065129bc2c54c1d971bc0e96fda740279dcd69f35"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11/c6w-0.3.11-darwin-arm64.tar.gz"
+    sha256 "69ad18bcb1ae893fb3497f14290c4635f3d0046c62f286070cc8fb15d99aae32"
   end
 
   bottle do
-    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "e01a51d965f3d62ca1b9e6bf9638a732a5c80e7486f4efb06ad31181957a4cba"
+    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "5ff12ae43e4c604d25eb19ed1709d46b733412f12a7ae1729a3e252fae965c94"
   end
 
   depends_on arch: :arm64

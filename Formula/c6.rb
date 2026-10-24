@@ -1,17 +1,17 @@
 class C6 < Formula
   desc "carbon6 command line: run and follow agent sessions through a carbon6 head"
   homepage "https://github.com/carbon6-dev/carbon6"
-  version "0.3.10"
+  version "0.3.11"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10/c6-0.3.10-darwin-arm64.tar.gz"
-    sha256 "123c15b20c1049c8cce1ebcfd2638b309cbeb32218b23ae3d9e24b6cbbbde923"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11/c6-0.3.11-darwin-arm64.tar.gz"
+    sha256 "ba8abaf894bec12c8fe07c24fbc3267c6cc403a58c5a130025e57d66cd4208a5"
   end
 
   bottle do
-    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "1b2109de4b329d8e856a9df587691261d19a70db8cd1d33deb9b4fce06e60355"
+    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "bc2b0b7b54af7871b1081e914142407d69928bb63033818a8e88e8c7eb1cef8a"
   end
 
   depends_on arch: :arm64

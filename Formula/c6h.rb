@@ -1,17 +1,17 @@
 class C6h < Formula
   desc "carbon6 head: manages workers and serves the web UI"
   homepage "https://github.com/carbon6-dev/carbon6"
-  version "0.3.10"
+  version "0.3.11"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_arm do
-    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10/c6h-0.3.10-darwin-arm64.tar.gz"
-    sha256 "f5945de074e7047b6b87d545dce85d2cfbe82df02e3fcf32ccc9d43d77cc24fa"
+    url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11/c6h-0.3.11-darwin-arm64.tar.gz"
+    sha256 "aa77d3bd9a8ec614eff46784eb5645982699c128b265e379989ab7366b94f074"
   end
 
   bottle do
-    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.10"
-    sha256 cellar: :any_skip_relocation, arm64_big_sur: "a017cdd5592c92548d9a919cd005f6eb45e67ca41f377f20baf5a6a90b4f781f"
+    root_url "https://github.com/carbon6-dev/carbon6/releases/download/v0.3.11"
+    sha256 cellar: :any_skip_relocation, arm64_big_sur: "c5f966d151762f332e60d4a9d14ad567f7226467ab3cc9b773c235e2b1cf19e5"
   end
 
   depends_on arch: :arm64
